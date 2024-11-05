@@ -1,0 +1,94 @@
+/*-------------------
+    RESET
+--------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------
+    GENERAL
+--------------------*/
+.container {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*-------------------
+    HEADER
+--------------------*/
+header {
+    background-color: #000;
+    padding: 20px 0;
+    color: #fff
+}
+
+header > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*-------------------
+    MAIN
+--------------------*/
+
+/* Section Form search Uber */
+#form-search-uber {
+    display: flex;
+    gap: 80px
+}
+
+#form-search-uber .col-left {
+    width: 40%;
+}
+
+#form-search-uber .col-right {
+    width: 60%;
+}
+
+/* Sections alternate */
+.section-alternate {
+    display: flex;
+    gap: 40px;
+}
+
+.section-alternate .col-left,
+.section-alternate .col-right  {
+    width: 50%;
+}
+
+/*-------------------
+    DEBUG
+--------------------*/
+.debug .nav-left {
+    background-color: bisque;
+}
+.debug .nav-right {
+    background-color: aqua;
+}
+
+.debug #form-search-uber .col-left  {
+    background-color: blueviolet;
+    min-height: 400px;
+}
+
+.debug #form-search-uber .col-right {
+    background-color: aqua;
+    min-height: 400px;
+}
+
+.debug .section-alternate .col-left {
+    background-color: burlywood;
+    min-height: 400px;
+}
+.debug .section-alternate .col-right {
+    background-color: brown;
+    min-height: 400px;
+}
